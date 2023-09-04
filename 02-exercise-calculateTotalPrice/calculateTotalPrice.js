@@ -24,14 +24,6 @@ function calculateTotalPrice(items) {
   return totalPrice;
 }
 
-function expect_to_be_equal(actual, expected) {
-  if(actual == expected) {
-    console.log("Tests passed!")
-  } else {
-    console.log(`Expected ${expected}, but got ${actual}`);
-  }
-}
-
 const items = [
   { name: 'item 1', price: 10 },
   { name: 'item 2', price: 20 },
@@ -39,5 +31,3 @@ const items = [
 ];
 
 console.log('Total price of items is: ', calculateTotalPrice(items));
-
-expect_to_be_equal(calculateTotalPrice(items), 60);

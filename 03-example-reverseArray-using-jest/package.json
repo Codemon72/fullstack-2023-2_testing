@@ -1,0 +1,15 @@
+{
+  "name": "03-example-reversearray-using-jest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "reverse_function.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^29.5.0"
+  }
+}
